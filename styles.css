@@ -358,6 +358,40 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .work-list{
+        grid-template-columns: 1fr;
+    }
+    .work{
+        min-height: 300px;
+    }
+    .work img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .layer{
+        font-size: 10px;
+        padding: 15px 25px;
+        height: 0;
+    }
+    .layer h3{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .layer p{
+        font-size: 10px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .layer a{
+        margin-top: 10px;
+        font-size: 14px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .work:active .layer{
+        height: 100%;
+    }
 }
 #msg{
     color: blue;
